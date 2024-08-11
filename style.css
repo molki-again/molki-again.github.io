@@ -1,54 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
+@import url('/catppuccin.css');
 
-body {
-    background-color: #1f1f1f;
-    color: #fff;
-    font-family: "Poppins", serif;
-}
-
-/* Header styling */
-header {
-    background-color: #333;
-    padding: 10px;
-}
-
-/* Navigation menu styling */
-nav {
-    background-color: #111;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-    display: inline-block;
-}
-
-/* Main content styling */
-main {
-    padding: 20px;
-}
-
-/* Footer styling */
-footer {
-    background-color: #333;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-button {
-  background-color: #000;
-  color: white;
-  border-radius: 5px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-family: "Poppins", serif;
-  font-size: large;
-}
-button:hover {
- background-color: grey;
-}
+.mocha {
+    color:        var(--ctp-mocha-text);
+    background:   rgba(var(--ctp-macchiato-base-rgb) / 0.9);
+    border-color: hsla(var(--ctp-frappe-red-hsl) / 0.75);
+  }
